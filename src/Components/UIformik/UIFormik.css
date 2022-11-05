@@ -1,0 +1,684 @@
+.bg-img{
+    /* background-color: black; */
+    background-image: url(../Img//contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 541px;
+    opacity: 0.8; */
+    color: #fff;
+  z-index: 0;
+}
+.top {
+  display: inline-table;
+  width: 975px;
+}
+.err {
+  color: red;
+  /* position: relative;
+  bottom: 29px;
+  left: 292px; */
+}
+.error-check{
+    color: red;
+    position: relative;
+    top: 15px;
+    right: 182px;
+}
+.error-checktwo{
+    color: red;
+    position: relative;
+    top: -50px;
+    right: 15px;
+}
+.gender{
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #666;
+    padding: 7px 40px 7px 12px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: right 11px;
+    transition: all 0.5s;
+}
+.religion{
+    position: relative;
+    color: #555454;
+    top: -10px;
+    font: normal 16px/33px "ralewaymedium", Arial, Helvetica, sans-serif;
+}
+.main-religion{
+    display: table;
+}
+.reli{
+    color: #79ba30;
+    font: normal 19px/33px "ralewaymedium", Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 14px;
+    margin-left: -8px;
+}
+.color{
+    color: #79ba30;
+    font: normal 19px/33px "ralewaymedium", Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 78px;
+    margin-left: 258px;
+}
+.color-c{
+    position: relative;
+    color: #555454;
+    top: -75px;
+    left: 104px;
+    font: normal 16px/33px "ralewaymedium", Arial, Helvetica, sans-serif;
+}
+#join-now-section {
+  /* background-image: url("../../Images/join-now-form.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* position: relative; */
+  text-align: center;
+  padding: 60px 0;
+  color: #fff;
+  z-index: 0;
+  font: normal 16px/20px "ralewayregular", Arial, Helvetica, sans-serif;
+}
+#join-now-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+}
+#join-now-section .holder {
+  max-width: 975px;
+}
+#join-now-section .join-form-holder {
+  overflow: hidden;
+  padding: 25px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+#join-now-section .join-form-holder:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+#join-now-section .join-form-holder h2 {
+  color: #79ba30;
+  font: normal 30px/33px "ralewaymedium", Arial, Helvetica, sans-serif;
+  margin: 0 0 35px;
+}
+#join-now-section .join-form-holder h3 {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  color: #666;
+  font: normal 16px/20px "ralewayregular", Arial, Helvetica, sans-serif;
+  margin: 0 0 25px;
+  padding: 0 0 10px;
+}
+#join-now-section .join-form-holder h3:before {
+  content: "";
+  background-color: #e5e5e5;
+  height: 1px;
+  width: 370px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -185px;
+}
+.join-form {
+  position: relative;
+  z-index: 99;
+  /* height:490px; */
+}
+.join-form:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.join-form .columns {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.join-form .row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.join-form .row {
+  margin: 0 0 28px;
+}
+.join-form p {
+  color: #888;
+  font: normal 13px/17px "ralewaymedium", Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: left;
+}
+.join-form p span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.join-form p span.ilinkedon-logo-small {
+  margin: 0 3px 8px;
+}
+.join-form p a {
+  color: #79ba30;
+  font: normal 14px/17px "ralewaymedium", Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.join-form p a:hover {
+  color: #27aae1;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.join-form .other-signin li {
+  width: 48%;
+}
+.join-form .other-signin li.sign-in-facebook {
+  float: left;
+}
+.join-form .other-signin li.sign-in-linkedin {
+  float: right;
+}
+.join-form .other-signin a {
+  display: block;
+  font: normal 14px/15px "ralewaymedium", Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 14px 20px;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.join-form .other-signin li.sign-in-facebook a {
+  background-color: #4463a7;
+  border: 1px solid #4463a7;
+}
+.join-form .other-signin li.sign-in-linkedin a {
+  background-color: #0274b3;
+  border: 1px solid #0274b3;
+}
+.join-form .other-signin li.sign-in-facebook a:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+.join-form .other-signin li.sign-in-linkedin a:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+.join-form .other-signin a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin: -8px 0 0;
+  font-family: "icomoon";
+}
+.join-form .other-signin li.sign-in-facebook a:before {
+  content: "\ea90";
+  font-size: 16px;
+  line-height: 16px;
+}
+.join-form .other-signin li.sign-in-linkedin a:before {
+  content: "\eaca";
+  font-size: 16px;
+  line-height: 16px;
+}
+.join-form .other-signin a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 55px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.join-form .other-signin a:hover:after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.join-form-holder > .ilinkedon-logo-custom {
+  position: absolute;
+  bottom: 10px;
+  right: -310px;
+  z-index: 0;
+  height: 110px;
+  width: 550px;
+  /* background-image: url("../../Images/gray-logo.svg"); */
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+.join-form-holder:hover > .ilinkedon-logo-custom {
+  /* background-image: url("../../Images/gray-logo-hover.svg"); */
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+/* Input Fields Start */
+.join-form .left-filed {
+  padding-right: 15px;
+}
+.join-form .right-filed {
+  padding-left: 15px;
+}
+/* .join-form .columns-row .row label,
+.signin-form .columns .row label,
+.signup-form .columns-row .row label {
+  display: block;
+  pointer-events: none;
+  color: #fff;
+  font: normal 14px/17px "ralewayregular", Arial, Helvetica, sans-serif;
+  margin: 0 0 5px;
+  text-align: left;
+  position: absolute;
+  z-index: 9;
+  display: none;
+} */
+.join-form .columns-row .row span {
+  display: block;
+  position: relative;
+  background-color: #f8f8f8;
+  text-align: left;
+  height: 39px;
+}
+#join-now-section .join-form .columns-row .row span:hover label,
+#signin-page .signin-form .row span:hover label,
+#signup-page .signup-form .columns-row .row span:hover label,
+#contact-page .contact-page-form .row span:hover label {
+  display: none !important;
+}
+.join-form ::-webkit-input-placeholder {
+  color: #666;
+  opacity: 0.3;
+}
+.join-form span .input-field {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #eee;
+  color: #666;
+  padding: 7px 40px 7px 12px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: right 11px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.join-form span .input-field:focus,
+.join-form span .input-field.valid {
+  border-color: #8fd442;
+}
+.join-form span .input-field.error {
+  border-color: #d40a5c;
+}
+.join-form span .input-field:hover {
+  border-color: #27aae1;
+}
+.join-form label.error {
+  background: #d40a5c;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  padding: 4px 10px 6px;
+  position: absolute;
+  top: -33px;
+  right: 15px;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-color: #d40a5c;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.join-form .right-filed label.error {
+  right: 0;
+}
+.join-form .textarea label.error {
+  top: 0;
+  right: 0;
+}
+.join-form label.error:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 6px 0 6px;
+  border-color: #d40a5b transparent transparent transparent;
+  line-height: 0px;
+  position: absolute;
+  top: 100%;
+  left: 20px;
+}
+.join-form .columns-row .row span input[type="file"] {
+  display: block;
+  border: none;
+  font-size: 14px;
+  line-height: 18px;
+  height: 107px;
+  width: 100%;
+  background-color: transparent;
+  color: #666;
+  padding: 7px 12px;
+  opacity: 0;
+  cursor: pointer;
+}
+.join-form .columns-row .row span.upload-image {
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+.join-form .columns-row .row span.upload-image:before {
+  content: "\e92d";
+  color: #e4e4e4;
+  font-size: 80px;
+  line-height: 80px;
+  font-family: "icomoon";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px;
+}
+.join-form .columns-row .row span.upload-image.loaded:before {
+  display: none;
+}
+.join-form .columns-row .row span.upload-image #myImg {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -45px 0 0 -45px;
+  height: 90px;
+  width: 90px;
+  border-radius: 5px;
+  border: none;
+}
+.join-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 0 0 40px;
+  font: normal 14px/17px "ralewaybold", Arial, Helvetica, sans-serif;
+  border: 1px solid #79ba30;
+  background-color: #79ba30;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 12px 9px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+    bottom: 16px;
+}
+.join-form button[type="submit"]:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* Sprite Start */
+.join-form .row span strong {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -8px;
+  height: 16px;
+  width: 25px;
+  /* background-image: url("../../Images/sprite.png"); */
+  background-repeat: no-repeat;
+}
+
+/* Sprite Normal Start */
+.join-form .row span #fname + strong {
+  background-position: -167px -2px;
+}
+.join-form .row span #lname + strong {
+  background-position: -167px -34px;
+}
+.join-form .row span #email + strong {
+  background-position: -168px -74px;
+  width: 18px;
+}
+.join-form .row span #password + strong {
+  background-position: -169px -110px;
+  width: 18px;
+}
+.join-form .row span #confirm-password + strong {
+  background-position: -171px -147px;
+  width: 18px;
+}
+.join-form .row span #phone + strong {
+  background-position: -171px -182px;
+  width: 18px;
+}
+/* Sprite Normal End */
+
+/* Sprite Error Start */
+.join-form .row span #fname.error + label + strong,
+.join-form .row span #fname.error:focus + label + strong {
+  background-position: -217px -2px;
+}
+.join-form .row span #lname.error + label + strong,
+.join-form .row span #lname.error:focus + label + strong {
+  background-position: -217px -34px;
+}
+.join-form .row span #email.error + label + strong,
+.join-form .row span #email.error:focus + label + strong {
+  background-position: -218px -74px;
+  width: 18px;
+}
+.join-form .row span #password.error + label + strong,
+.join-form .row span #password.error:focus + label + strong {
+  background-position: -219px -110px;
+  width: 18px;
+}
+.join-form .row span #confirm-password.error + label + strong,
+.join-form .row span #confirm-password.error:focus + label + strong {
+  background-position: -221px -147px;
+  width: 18px;
+}
+.join-form .row span #phone.error + label + strong,
+.join-form .row span #phone.error:focus + label + strong {
+  background-position: -221px -182px;
+  width: 18px;
+}
+/* Sprite Error End */
+
+/* Sprite Valid & Focus Start */
+.join-form .row span #fname.valid + strong,
+.join-form .row span #fname.valid + label + strong,
+.join-form .row span #fname:focus + strong,
+.join-form .row span #fname:focus + label + strong {
+  background-position: -267px -2px;
+}
+.join-form .row span #lname.valid + strong,
+.join-form .row span #lname.valid + label + strong,
+.join-form .row span #lname:focus + strong,
+.join-form .row span #lname:focus + label + strong {
+  background-position: -267px -34px;
+}
+.join-form .row span #email.valid + strong,
+.join-form .row span #email.valid + label + strong,
+.join-form .row span #email:focus + strong,
+.join-form .row span #email:focus + label + strong {
+  background-position: -268px -74px;
+  width: 18px;
+}
+.join-form .row span #password.valid + strong,
+.join-form .row span #password.valid + label + strong,
+.join-form .row span #password:focus + strong,
+.join-form .row span #password:focus + label + strong {
+  background-position: -269px -110px;
+  width: 18px;
+}
+.join-form .row span #confirm-password.valid + strong,
+.join-form .row span #confirm-password.valid + label + strong,
+.join-form .row span #confirm-password:focus + strong,
+.join-form .row span #confirm-password:focus + label + strong {
+  background-position: -271px -147px;
+  width: 18px;
+}
+.join-form .row span #phone.valid + strong,
+.join-form .row span #phone.valid + label + strong,
+.join-form .row span #phone:focus + strong,
+.join-form .row span #phone:focus + label + strong {
+  background-position: -271px -182px;
+  width: 18px;
+}
+/* Sprite Valid & Focus End */
+
+/* Sprite Hover Start */
+.join-form .row span #fname:hover + strong,
+.join-form .row span #fname:hover + label + strong,
+.join-form .row span #fname.error:hover + strong,
+.join-form .row span #fname.error:hover + label + strong,
+.join-form .row span #fname.valid:hover + strong,
+.join-form .row span #fname.valid:hover + label + strong,
+.join-form .row span #fname:focus:hover + strong,
+.join-form .row span #fname:focus:hover + label + strong {
+  background-position: -317px -2px;
+}
+.join-form .row span #lname:hover + strong,
+.join-form .row span #lname:hover + label + strong,
+.join-form .row span #lname.error:hover + strong,
+.join-form .row span #lname.error:hover + label + strong,
+.join-form .row span #lname.valid:hover + strong,
+.join-form .row span #lname.valid:hover + label + strong,
+.join-form .row span #lname:focus:hover + strong,
+.join-form .row span #lname:focus:hover + label + strong {
+  background-position: -317px -34px;
+}
+.join-form .row span #email:hover + strong,
+.join-form .row span #email:hover + label + strong,
+.join-form .row span #email.error:hover + strong,
+.join-form .row span #email.error:hover + label + strong,
+.join-form .row span #email.valid:hover + strong,
+.join-form .row span #email.valid:hover + label + strong,
+.join-form .row span #email:focus:hover + strong,
+.join-form .row span #email:focus:hover + label + strong {
+  background-position: -318px -74px;
+  width: 18px;
+}
+.join-form .row span #password:hover + strong,
+.join-form .row span #password:hover + label + strong,
+.join-form .row span #password.error:hover + strong,
+.join-form .row span #password.error:hover + label + strong,
+.join-form .row span #password.valid:hover + strong,
+.join-form .row span #password.valid:hover + label + strong,
+.join-form .row span #password:focus:hover + strong,
+.join-form .row span #password:focus:hover + label + strong {
+  background-position: -319px -110px;
+  width: 18px;
+}
+.join-form .row span #confirm-password:hover + strong,
+.join-form .row span #confirm-password:hover + label + strong,
+.join-form .row span #confirm-password.error:hover + strong,
+.join-form .row span #confirm-password.error:hover + label + strong,
+.join-form .row span #confirm-password.valid:hover + strong,
+.join-form .row span #confirm-password.valid:hover + label + strong,
+.join-form .row span #confirm-password:focus:hover + strong,
+.join-form .row span #confirm-password:focus:hover + label + strong {
+  background-position: -321px -147px;
+  width: 18px;
+}
+.join-form .row span #phone:hover + strong,
+.join-form .row span #phone:hover + label + strong,
+.join-form .row span #phone.error:hover + strong,
+.join-form .row span #phone.error:hover + label + strong,
+.join-form .row span #phone.valid:hover + strong,
+.join-form .row span #phone.valid:hover + label + strong,
+.join-form .row span #phone:focus:hover + strong,
+.join-form .row span #phone:focus:hover + label + strong {
+  background-position: -321px -182px;
+  width: 18px;
+}
+/* Sprite Hover End */
+/* Sprite End */
+/* Input Fields End */
+
+.agreement-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border: 1px solid #27aae1;
+  border-radius: 2px;
+  margin: 0 4px 1px 0;
+  position: relative;
+  text-align: center;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+.agreement-checkbox:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 18px;
+  color: transparent;
+  text-align: center;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+.agreement-checkbox.true:before {
+  content: "\2714";
+  color: #79ba30;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+.agreement-checkbox input[type="checkbox"] {
+  display: none;
+}

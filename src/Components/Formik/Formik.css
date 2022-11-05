@@ -1,0 +1,37 @@
+.form-control {
+  padding: 7px 10px;
+  height: 20px;
+  width: 240px;
+  outline: none;
+  border: 1px solid #b3b3b3;
+  background-color: #f2f2f2;
+  background-clip: padding-box;
+}
+Form {
+  display: inline-grid;
+}
+label {
+  text-align: initial;
+}
+button {
+  padding: 5px 6px;
+  width: 110px;
+  margin-left: 83px;
+  color: white;
+  background-color: #4684b0;
+  outline: none;
+  border: 1px solid #4684b0;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.gender{
+    padding: 7px 10px;
+    height: 30px;
+    width: 260px;
+    outline: none;
+    border: 1px solid #b3b3b3;
+    background-color: #f2f2f2;
+    background-clip: padding-box;
+}
